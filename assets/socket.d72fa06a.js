@@ -1,0 +1,1 @@
+import{b as n}from"./index.b1b3b6a3.js";import{u as r}from"./socket.86f4e2d0.js";var a=n(({app:o,store:e})=>{const t=r(e),c="https://socket.camaratech.com.br";t.initialize(c,{auth:{token:null},transports:["websocket","polling"],reconnection:!0,reconnectionDelay:1e3,reconnectionAttempts:1/0}),o.config.globalProperties.$socket=t});export{a as default};

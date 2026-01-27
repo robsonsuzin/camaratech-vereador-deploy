@@ -1,1 +1,0 @@
-import{b as e,u as s}from"./index.3a2dc7e9.js";var c=e(async({app:t})=>{var r;const a=s();try{await a.getMe()}catch(o){((r=o.response)==null?void 0:r.status)!==401&&console.error("Erro ao carregar dados do usu\xE1rio:",o)}});export{c as default};

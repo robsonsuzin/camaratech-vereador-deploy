@@ -1,0 +1,1 @@
+import{b as r}from"./index.7eb09245.js";import{u as s}from"./socket.3a5654fc.js";var a=r(({app:o,store:e})=>{const t=s(e),n="https://socket-io-532811747624.southamerica-east1.run.app";t.initialize(n,{auth:{token:null},transports:["websocket","polling"],reconnection:!0,reconnectionDelay:1e3,reconnectionAttempts:1/0}),o.config.globalProperties.$socket=t});export{a as default};
